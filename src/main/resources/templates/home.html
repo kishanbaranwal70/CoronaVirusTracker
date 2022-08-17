@@ -11,7 +11,7 @@
 <p>This application lists the current number of cases reported</p>
 <div class="jumbotron">
     <h1 class="display-4" th:text="${totalReportedCases}"></h1>
-    <p class="lead">Total cases reported as of today</p>
+    <p class="lead">Total confirmed cases reported till today</p>
     <hr class = "my-4">
     <p>
         <span>New Cases reported since previous day</span>
@@ -23,7 +23,7 @@
     <tr>
         <th>State</th>
         <th>Country</th>
-        <th>Total Cases Reported</th>
+        <th>Total Confirmed Cases Reported</th>
         <th>Changes since last day </th>
     </tr>
     <tr th:each="locationStat: ${locationStats}">
