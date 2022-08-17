@@ -13,9 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>coronavirus-tracker</name>
 	<description>CoronaVirus Tracker</description>
-	<properties>
+<!-- 	<properties>
 		<java.version>11</java.version>
-	</properties>
+	</properties> -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,6 +49,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				 <version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>
